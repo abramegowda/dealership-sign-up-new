@@ -1,0 +1,169 @@
+.section-left {
+  width: 32.5%;
+  float: left;
+  padding-right: 71px;
+  border-right: 1px solid #ededed;
+  padding-bottom: 250px;
+}
+
+.sub-section-left {
+  padding-left: 20px;
+}
+
+.section-right {
+  width: 48%;
+  float: left;
+  padding-left: 45.5px;
+  margin-top: 71px;
+}
+
+.group-img {
+  max-width: 100%;
+  width: 100%;
+  margin-top: 41px;
+}
+
+.heading-copy {
+  font-family: InterSemiBold;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -1px;
+  color: #000000;
+  margin-bottom: 89px;
+  margin-top: 28.3px;
+}
+
+.arc-logo {
+  max-width: 60%;
+  width: 100%;
+  margin-bottom: 81.6px;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+li a,
+li a:hover {
+  font-family: InterRegular;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #000000;
+  text-decoration: none;
+  margin-left: 16px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ededed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.nav-arrow {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  left: auto;
+}
+
+h1 {
+  font-family: InterRegular;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.75px;
+  color: #000000;
+  margin: 0;
+}
+
+li span {
+  position: relative;
+}
+
+li span::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  left: -5px;
+  right: auto;
+  border-top: 1px dotted #dadada;
+  transform: rotate(90deg);
+  bottom: -25px;
+}
+
+li:last-child span::after {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .group-img {
+    width: 45%;
+    margin-bottom: 35px;
+  }
+  .heading-copy {
+    font-size: 20px;
+    margin-bottom: 45px;
+  }
+
+  .arc-logo {
+    margin-bottom: 35px;
+    max-width: 45%;
+  }
+  .section-left {
+    padding-right: 0;
+    border: 0;
+    float: initial;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sub-section-left {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .section-right {
+    padding-left: 0;
+    float: initial;
+    width: 100%;
+    text-align: center;
+  }
+
+  ul {
+    padding-bottom: 160px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .section-left {
+    width: 36%;
+  }
+
+  .arc-logo {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .section-left {
+    height: 75vh;
+  }
+}

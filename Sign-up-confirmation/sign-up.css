@@ -1,0 +1,180 @@
+.max-width-outer {
+  max-width: 590px;
+  padding: 58px 61px;
+  margin: 0 auto;
+  background-color: #f7f7f7;
+}
+
+.center-align-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boby-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 37.2px 0 40px;
+  padding: 40px 40px 53px;
+  background-color: #fff;
+}
+
+.address-to {
+  font-family: InterBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #2f313c;
+  margin-bottom: 7px;
+}
+
+.gesture-message {
+  font-family: InterSemiBold;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.3;
+  letter-spacing: -0.75px;
+  color: #000000;
+  margin-bottom: 22.5px;
+}
+
+.thumbs-up-img {
+  max-width: 30%;
+  width: 100%;
+}
+
+.left-content-one {
+  margin-top: 14.7px;
+}
+
+.left-content-two {
+  border-top: 1px solid #ccc;
+}
+
+.copy {
+  font-family: InterRegular;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #4d515b;
+  margin-bottom: 20px;
+}
+
+.copy-question-type {
+  font-family: InterSemiBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #2f313c;
+}
+
+.sign-up-button,
+.sign-up-button:hover {
+  width: 250px;
+  height: 48px;
+  border-radius: 30px;
+  background-color: #05deba;
+  font-family: InterSemiBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #15161f;
+  margin-bottom: 34px;
+  display: block;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.copy-wishes {
+  margin-bottom: 4px;
+}
+
+.copy-signing-off {
+  font-family: InterSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #4d515b;
+  margin-bottom: 20px;
+}
+
+.sign-up-button img {
+  margin-left: 16px;
+  width: 24px;
+  height: 24px;
+}
+
+.contact-copy {
+  margin-top: 20px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-ids {
+  font-family: InterSemiBold;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #18a0fb;
+  margin-right: 58px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-ids img {
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+@media only screen and (max-width: 767px) {
+  .max-width-outer {
+    padding: 48px 30px;
+  }
+  .gesture-message {
+    text-align: center;
+  }
+  .boby-content {
+    padding: 40px 20px 53px;
+  }
+  .sign-up-button,
+  .sign-up-button:hover {
+    width: auto;
+    padding: 8px 16px;
+    height: auto;
+    font-size: 14px;
+    max-width: 165px;
+  }
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-ids {
+    justify-content: left;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .contact-ids:last-child {
+    margin-bottom: 0;
+  }
+  .thumbs-up-img {
+    max-width: 65%;
+  }
+}

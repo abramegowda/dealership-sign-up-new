@@ -1,0 +1,192 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+* {
+  outline: none;
+}
+
+.max-width-conatiner {
+  max-width: 430px;
+  margin: 0 auto;
+}
+
+.max-width-container-footer {
+  max-width: 890px;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 61px 0 69.2px;
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 152px;
+  min-width: 152px;
+}
+
+.dealership-logo-container {
+  text-align: center;
+}
+
+.dealership-logo {
+  max-width: 67%;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.copy {
+  font-family: InterSemiBold;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -1px;
+  color: #15161f;
+  margin-bottom: 46px;
+  text-align: center;
+}
+
+.thumbs-up-img-container {
+  text-align: center;
+}
+
+.thumbs-up-img {
+  max-width: 70%;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.copy-last {
+  font-family: InterRegular;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #4d515b;
+  padding-bottom: 180px;
+  text-align: center;
+}
+
+.copy-last span {
+  font-weight: 600;
+  line-height: 1.14;
+  color: #18a0fb;
+}
+
+.fixed-footer {
+  background-color: #2f313c;
+  padding: 36px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-icons {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.container.profile .footer-icons {
+  width: 48px;
+  height: 48px;
+}
+
+.container.email .footer-icons,
+.container.text .footer-icons {
+  margin-right: 20px;
+}
+
+.footer-text-big {
+  font-family: InterSemiBold;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+.footer-text-small {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.max-width-container-footer .container {
+  display: flex;
+}
+
+.max-width-container-footer .container.profile {
+  float: left;
+}
+
+.max-width-container-footer .container.email,
+.max-width-container-footer .container.text {
+  float: right;
+}
+
+.container.email {
+  margin-right: 52px;
+}
+
+.container.profile div,
+.container.text div,
+.container.email div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 767px) {
+  .max-width-container-footer,
+  .max-width-conatiner {
+    max-width: 85%;
+  }
+
+  .max-width-conatiner {
+    margin-bottom: 300px;
+  }
+
+  .max-width-container-footer .container.profile,
+  .max-width-container-footer .container.text,
+  .max-width-container-footer .container.email {
+    float: initial;
+    margin-bottom: 30px;
+  }
+  .max-width-container-footer .container.email {
+    margin-bottom: 0;
+  }
+
+  .logo {
+    margin: 41px 0 49.2px;
+  }
+  .logo img {
+    max-width: 120px;
+    min-width: 120px;
+    width: 100%;
+  }
+
+  .dealership-logo {
+    margin-bottom: 45px;
+    max-width: 100%;
+    width: 55%;
+  }
+  .thumbs-up-img {
+    max-width: 50%;
+  }
+}

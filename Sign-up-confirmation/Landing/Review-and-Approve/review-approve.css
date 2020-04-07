@@ -1,0 +1,202 @@
+.back-cta-container a,
+.back-cta-container a:hover {
+  font-family: InterRegular;
+  font-size: 14px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #15161f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.go-back-cta {
+  margin-right: 12px;
+  width: 22px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+
+.back-cta-container {
+  position: relative;
+  margin-top: 27px;
+  margin-bottom: 2px;
+}
+
+.pricing-container {
+  margin: 0 auto;
+  max-width: 70%;
+  padding-bottom: 150px;
+}
+
+.pricing-header {
+  display: flex;
+  align-items: center;
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #000000;
+}
+
+.pricing-icons {
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.pricing-list {
+  margin-top: 53px;
+}
+
+.invoice-set-one,
+.invoice-set-two {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-list .expandable-header,
+.invoice-set-two .item-list div {
+  display: flow-root;
+  margin-bottom: 16px;
+}
+
+.item-list .expandable-header:last-child,
+.invoice-set-two .item-list div:last-child {
+  margin-bottom: 20px;
+}
+
+.item-total {
+  margin-bottom: 48px;
+}
+
+.item-total div {
+  padding-top: 20px;
+  border-top: 1px solid #ededed;
+}
+
+.invoice-set-two .item-total div {
+  padding-top: 20px;
+}
+
+.invoice-set-two .item-total {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.item-sub-list {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+}
+
+.item-sub-list:last-child {
+    border: none;
+    padding-bottom: 0;
+}
+
+.item-list p,
+.item-list span,
+.item-sub-list p,
+.item-sub-list span {
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #4d515b;
+  float: left;
+}
+
+.item-sub-list abbr {
+    display: block;
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.item-list p,
+.invoice-set-two .item-list p,
+.invoice-set-two .item-list span {
+  margin-top: 0.5em;
+}
+
+.item-sub-list p,
+.item-sub-list span {
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #2f313c;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.item-list span,
+.item-sub-list span {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.item-sub-list span {
+    margin-right: 56px;
+}
+
+.item-total p {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  color: #4d515b;
+  float: left;
+  margin: 0;
+}
+
+.item-total span {
+  font-family: InterSemiBold;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.21;
+  letter-spacing: -1px;
+  color: #15161f;
+  float: right;
+}
+
+.expand-button {
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+  margin-left: 24px;
+}
+
+.expand-button img {
+  width: 32px;
+  height: 32px;
+}
+
+.expandable-content {
+  margin-top: 34px;
+  margin-bottom: 50px;
+}
+
+.item-sub-list {
+  display: flow-root;
+}
+
+.rotate-arrow {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 767px) {
+  .item-list p,
+  .item-list span {
+    font-size: 14px;
+  }
+
+  .item-total span {
+    font-size: 20px;
+  }
+}

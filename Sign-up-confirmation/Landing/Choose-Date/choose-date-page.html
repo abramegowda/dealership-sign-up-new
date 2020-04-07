@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../../font.css" />
+    <link rel="stylesheet" type="text/css" href="../landing-page-common.css" />
+    <link rel="stylesheet" type="text/css" href="choose-date.css" />
+    <title>Choose Date</title>
+  </head>
+  <body>
+    <section class="">
+      <section class="header">
+        <div class="max-width-container">
+          <a href="https://www.tekion.com/">
+            <img
+              class="logo-green"
+              src="../../images/logo-green.png"
+              alt="tekion logo"
+          /></a>
+          <img
+            class="dealership-logo"
+            src="../landing-page-images/dealer-img.png"
+            alt="dealership-logo"
+          />
+        </div>
+      </section>
+      <section>
+        <div class="max-width-container">
+          <div class="back-cta-container">
+            <a href="../MSA-Sign-Upload/msa-sign-upload-page.html"><img src="../../images/arrow-right.png" class="go-back-cta" alt="go-back-img" />Go back</a>
+          </div>
+          <div class="calendar-container">
+            <div class="calendar-header">
+              <img
+                class="calendar-icons"
+                src="choose-date-images/date-range.png"
+              />Choose implementation<br> dates
+            </div>
+            <p class="calendar-text">
+              Select the date range from the earliest to the latest you can
+              implement tekion
+            </p>
+            <div>
+              <div id="date-range-container"></div>
+              <input
+                style="visibility: hidden;"
+                type="text"
+                name="datepicker"
+                id="datepicker"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fixed-footer">
+        <div class="max-width-container">
+          <div class="footer-content">
+            <div class="copy-div">
+              <p class="only-mobile first-copy">Ready to get started?</p>
+              <p class="only-dt first-copy">
+                Ready to get started with us? Great!
+              </p>
+              <p class="only-dt">
+                We are ready to get started to. It’s really easy to do!
+              </p>
+            </div>
+            <div class="footer-cta-conatiner">
+              <a href="../landing-page.html" class="skip-cta">Skip</a>
+              <div class="button-div">
+                <a class="submit-btn" href="#"
+                  >Continue<img src="../../images/arrow-right.png"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <script src="moment.js"></script>
+    <script type="text/javascript" src="../../jquery.min.js"></script>
+    <script src="jquery-date-range-picker-master/jquery.daterangepicker.js"></script>
+    <script type="text/javascript" src="../../script.js"></script>
+    <script src="calendar-script.js"></script>
+  </body>
+</html>
