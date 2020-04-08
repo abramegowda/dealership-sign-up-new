@@ -11,7 +11,7 @@
     <section class="">
       <section class="header">
         <div class="max-width-container">
-          <a href="https://www.tekion.com/">
+          <a href="../landing-page.html">
             <img
               class="logo-green"
               src="../../images/logo-green.png"
@@ -27,7 +27,7 @@
       <section>
         <div class="max-width-container">
           <div class="back-cta-container">
-            <a href="../landing-page.html"
+            <a href="javascript:history.go(-1)"
               ><img
                 src="../../images/arrow-right.png"
                 class="go-back-cta"
@@ -54,24 +54,47 @@
                           class="expand-button"
                           onclick="expandItem(event, 'expand1')"
                         >
-                          <img alt="expand-icon" src="review-approve-images/expand.png" /></button
+                          <img
+                            alt="expand-icon"
+                            src="review-approve-images/expand.png"
+                          /></button
                       ></span>
                     </div>
-                    <div id="expand1" class="expandable-content" style="display: none;">
+                    <div
+                      id="expand1"
+                      class="expandable-content"
+                      style="display: none;"
+                    >
                       <div class="item-sub-list">
-                        <p>Finance & Insurance Menus and Reporting<abbr>(per month)</abbr></p>
+                        <p>
+                          Finance & Insurance Menus and Reporting<abbr
+                            >(per month)</abbr
+                          >
+                        </p>
                         <span>$490</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Digital Signage<abbr>($50 per display X3, per month)</abbr></p>
+                        <p>
+                          Digital Signage<abbr
+                            >($50 per display X3, per month)</abbr
+                          >
+                        </p>
                         <span>$150</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Vehicle Recognition<abbr>RFID - $125 per lane X1, per month)</abbr></p>
+                        <p>
+                          Vehicle Recognition<abbr
+                            >RFID - $125 per lane X1, per month)</abbr
+                          >
+                        </p>
                         <span>$125</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Vehicle Connectivity<abbr>(OBD II - $20 per device X50, per month)</abbr></p>
+                        <p>
+                          Vehicle Connectivity<abbr
+                            >(OBD II - $20 per device X50, per month)</abbr
+                          >
+                        </p>
                         <span>$1,000</span>
                       </div>
                     </div>
@@ -84,24 +107,47 @@
                           class="expand-button"
                           onclick="expandItem(event, 'expand2')"
                         >
-                          <img alt="expand-icon" src="review-approve-images/expand.png" /></button
+                          <img
+                            alt="expand-icon"
+                            src="review-approve-images/expand.png"
+                          /></button
                       ></span>
                     </div>
-                    <div id="expand2" class="expandable-content" style="display: none;">
+                    <div
+                      id="expand2"
+                      class="expandable-content"
+                      style="display: none;"
+                    >
                       <div class="item-sub-list">
-                        <p>Finance & Insurance Menus and Reporting<abbr>(per month)</abbr></p>
+                        <p>
+                          Finance & Insurance Menus and Reporting<abbr
+                            >(per month)</abbr
+                          >
+                        </p>
                         <span>$490</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Digital Signage<abbr>($50 per display X3, per month)</abbr></p>
+                        <p>
+                          Digital Signage<abbr
+                            >($50 per display X3, per month)</abbr
+                          >
+                        </p>
                         <span>$150</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Vehicle Recognition<abbr>RFID - $125 per lane X1, per month)</abbr></p>
+                        <p>
+                          Vehicle Recognition<abbr
+                            >RFID - $125 per lane X1, per month)</abbr
+                          >
+                        </p>
                         <span>$125</span>
                       </div>
                       <div class="item-sub-list">
-                        <p>Vehicle Connectivity<abbr>(OBD II - $20 per device X50, per month)</abbr></p>
+                        <p>
+                          Vehicle Connectivity<abbr
+                            >(OBD II - $20 per device X50, per month)</abbr
+                          >
+                        </p>
                         <span>$1,000</span>
                       </div>
                     </div>
@@ -149,9 +195,19 @@
               </p>
             </div>
             <div class="button-div">
-              <a class="submit-btn" onclick="updateStatus('review')" href="../MSA-Sign-Upload/msa-sign-upload-page.html"
-                >Accept & Continue<img src="../../images/arrow-right.png"
-              /></a>
+              <form
+                action="../MSA-Sign-Upload/msa-sign-upload-page.html"
+                method="get"
+              >
+                <button
+                  class="submit-btn"
+                  type="submit"
+                  onclick="setReviewKey()"
+                >
+                  Accept & Continue
+                  <img src="../../images/arrow-right.png" />
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -159,6 +215,6 @@
     </section>
     <script type="text/javascript" src="../../jquery.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
-    <script type="text/javascript" src="reviewApprove.js"></script>
+    <script type="text/javascript" src="./reviewApprove.js"></script>
   </body>
 </html>

@@ -11,7 +11,7 @@
     <section class="">
       <section class="header">
         <div class="max-width-container">
-          <a href="https://www.tekion.com/">
+          <a href="../landing-page.html">
             <img
               class="logo-green"
               src="../../images/logo-green.png"
@@ -27,14 +27,21 @@
       <section>
         <div class="max-width-container">
           <div class="back-cta-container">
-            <a href="../MSA-Sign-Upload/msa-sign-upload-page.html"><img src="../../images/arrow-right.png" class="go-back-cta" alt="go-back-img" />Go back</a>
+            <a href="javascript:history.go(-1)"
+              ><img
+                src="../../images/arrow-right.png"
+                class="go-back-cta"
+                alt="go-back-img"
+              />Go back</a
+            >
           </div>
           <div class="calendar-container">
             <div class="calendar-header">
               <img
                 class="calendar-icons"
                 src="choose-date-images/date-range.png"
-              />Choose implementation<br> dates
+              />Choose implementation<br />
+              dates
             </div>
             <p class="calendar-text">
               Select the date range from the earliest to the latest you can
@@ -67,9 +74,12 @@
             <div class="footer-cta-conatiner">
               <a href="../landing-page.html" class="skip-cta">Skip</a>
               <div class="button-div">
-                <a class="submit-btn" href="#"
-                  >Continue<img src="../../images/arrow-right.png"
-                /></a>
+                <form action="../landing-page.html" method="get">
+                  <button class="submit-btn" type="submit">
+                    Continue
+                    <img src="../../images/arrow-right.png" />
+                  </button>
+                </form>
               </div>
             </div>
           </div>
@@ -80,6 +90,6 @@
     <script type="text/javascript" src="../../jquery.min.js"></script>
     <script src="jquery-date-range-picker-master/jquery.daterangepicker.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
-    <script src="calendar-script.js"></script>
+    <script src="./calendar-script.js"></script>
   </body>
 </html>

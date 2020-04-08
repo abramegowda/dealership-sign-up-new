@@ -1,8 +1,8 @@
 $(document).ready(function($) {
   $(".submit-btn").addClass("not-active");
-  $(".button-div a img").addClass("arrow-inactive");
+  $(".button-div .submit-btn img").addClass("arrow-inactive");
   $(".submit-btn").attr("disabled", true);
-  
+
   $("#datepicker")
     .dateRangePicker({
       singleMonth: true,
@@ -18,7 +18,7 @@ $(document).ready(function($) {
     .bind("datepicker-change", function(event, obj) {
       if ($("#datepicker").val().length > 0) {
         $(".submit-btn").removeClass("not-active");
-        $(".button-div a img").removeClass("arrow-inactive");
+        $(".button-div .submit-btn img").removeClass("arrow-inactive");
         $(".submit-btn").attr("disabled", false);
       }
     });
@@ -28,13 +28,7 @@ $(document).ready(function($) {
       .data("dateRangePicker")
       .clear();
     $(".submit-btn").addClass("not-active");
-    $(".button-div a img").addClass("arrow-inactive");
+    $(".button-div .submit-btn img").addClass("arrow-inactive");
     $(".submit-btn").attr("disabled", true);
-  });
-
-  $(".submit-btn").click(function() {
-    if ($("#datepicker").val().length > 0) {
-      $(".submit-btn").attr("href", "../landing-page.html");
-    }
   });
 });

@@ -11,7 +11,7 @@
     <section class="">
       <section class="header">
         <div class="max-width-container">
-          <a href="https://www.tekion.com/">
+          <a href="../landing-page.html">
             <img
               class="logo-green"
               src="../../images/logo-green.png"
@@ -27,7 +27,7 @@
       <section>
         <div class="max-width-container">
           <div class="back-cta-container">
-            <a href="../Review-and-Approve/review-approve-page.html"
+            <a href="javascript:history.go(-1)"
               ><img
                 src="../../images/arrow-right.png"
                 class="go-back-cta"
@@ -51,9 +51,18 @@
               </p>
             </div>
             <div class="button-div">
-              <a class="submit-btn" onclick="updateStatus('msa')" href="../Choose-Date/choose-date-page.html"
-                >Accept & Continue<img src="../../images/arrow-right.png"
-              /></a>
+              <form
+                action="../Choose-Date/choose-date-page.html"
+                method="get"
+              >
+                <button
+                  class="submit-btn"
+                  type="submit"
+                  onclick="setMSAKey()"
+                >Accept & Continue
+                  <img src="../../images/arrow-right.png" />
+                </button>
+              </form>
             </div>
           </div>
         </div>
@@ -61,6 +70,6 @@
     </section>
     <script type="text/javascript" src="../../jquery.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
-    <script type="text/javascript" src="reviewApprove.js"></script>
+    <script type="text/javascript" src="./msaSignUpload.js"></script>
   </body>
 </html>
