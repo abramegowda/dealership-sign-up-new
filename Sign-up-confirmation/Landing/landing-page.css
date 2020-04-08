@@ -1,9 +1,8 @@
 .section-left {
-  width: 32.5%;
+  width: 33%;
   float: left;
   padding-right: 71px;
   border-right: 1px solid #ededed;
-  padding-bottom: 250px;
 }
 
 .sub-section-left {
@@ -11,7 +10,7 @@
 }
 
 .section-right {
-  width: 48%;
+  width: 56%;
   float: left;
   padding-left: 45.5px;
   margin-top: 71px;
@@ -35,9 +34,10 @@
 }
 
 .arc-logo {
-  max-width: 60%;
+  max-width: 58%;
   width: 100%;
   margin-bottom: 81.6px;
+  padding-bottom: 130px;
 }
 
 .icons {
@@ -104,7 +104,7 @@ li span::after {
   width: 50px;
   left: -5px;
   right: auto;
-  border-top: 2px dotted #dadada;
+  border-top: 2px dashed #dadada;
   transform: rotate(90deg);
   bottom: -25px;
 }

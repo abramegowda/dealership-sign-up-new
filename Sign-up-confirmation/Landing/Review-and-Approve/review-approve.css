@@ -56,10 +56,14 @@
   flex-direction: column;
 }
 
-.item-list .expandable-header,
+.item-list .expandable-header {
+  display: flow-root;
+  margin-bottom: 25px;
+}
+
 .invoice-set-two .item-list div {
   display: flow-root;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .item-list .expandable-header:last-child,
@@ -154,7 +158,7 @@
 
 .item-total span {
   font-family: InterSemiBold;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 1.21;
   letter-spacing: -1px;

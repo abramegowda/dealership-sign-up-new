@@ -9,7 +9,10 @@ function expandItem(event, id) {
 }
 
 window.onload = function() {
-  localStorage.setItem("review", 'false');
+  var isReviewComplete = localStorage.getItem("review");
+  if(isReviewComplete !== 'true') {
+    localStorage.setItem("review", 'false');
+  }
 };
 
 function setReviewKey() {

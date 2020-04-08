@@ -42,6 +42,7 @@
 .calendar-container {
   margin: 0 auto;
   max-width: 70%;
+  padding-bottom: 150px;
 }
 
 .back-cta-container {
@@ -710,6 +711,19 @@ span.month-name {
   }
   .reset {
     padding-right: 10px;
+  }
+  .footer-cta-conatiner {
+    float: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .button-div {
+    float: initial;
+    text-align: center;
+    max-width: initial;
+    margin: 0;
   }
 }
 

@@ -1,3 +1,21 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  letter-spacing: normal;
+}
+
+* {
+  outline: none;
+}
+
 .max-width-container {
   max-width: 62%;
   margin: 0 auto;
@@ -17,7 +35,7 @@
 }
 
 .dealership-logo {
-  max-width: 30%;
+  max-width: 26%;
   width: 30%;
   margin-bottom: 45px;
   margin-top: 42px;
@@ -38,6 +56,10 @@
 .copy-div {
   float: left;
   padding-left: 20px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .button-div {
@@ -82,12 +104,8 @@
 }
 
 .button-div .submit-btn.not-active {
-  background-color: #ededed;
-  color: #d2d2d2;
-}
-
-.button-div .submit-btn img.arrow-inactive {
-  opacity: 0.2;
+  background-color: #4d515b;
+  color: #818389;
 }
 
 .button-div .submit-btn img {
@@ -156,12 +174,14 @@
     margin-bottom: 10px;
     padding: 0;
     float: initial;
+    height: initial;
   }
 
   .dealership-logo {
-    max-width: 40%;
+    max-width: 50%;
     width: 100%;
     margin-bottom: 45px;
+    margin-top: 30px;
   }
 
   .button-div .submit-btn {
@@ -186,6 +206,11 @@
     text-align: center;
     max-width: 190px;
     margin: 0 auto;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
   }
 }
 

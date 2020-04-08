@@ -32,22 +32,23 @@
 }
 
 .gesture-message {
-  font-family: InterSemiBold;
+  font-family: InterRegular;
   font-size: 20px;
-  font-weight: normal;
   line-height: 1.3;
   letter-spacing: -0.75px;
   color: #000000;
-  margin-bottom: 22.5px;
+  margin-bottom: 31.1px;
+  text-align: center;
+  max-width: 318px;
 }
 
 .thumbs-up-img {
-  max-width: 30%;
+  max-width: 40%;
   width: 100%;
 }
 
 .left-content-one {
-  margin-top: 14.7px;
+  margin-top: 38.8px;
 }
 
 .left-content-two {
@@ -70,6 +71,7 @@
   line-height: 1.25;
   letter-spacing: -0.6px;
   color: #2f313c;
+  padding-top: 20px;
 }
 
 .sign-up-button,
@@ -116,6 +118,7 @@
 
 .contact-copy {
   margin-top: 20px;
+  margin-bottom: 16px;
 }
 
 .contact-container {

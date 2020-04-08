@@ -76,7 +76,7 @@ a {
   line-height: 1.25;
   letter-spacing: -0.6px;
   color: #2f313c;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
 }
 
 .gesture-message {
@@ -95,7 +95,7 @@ a {
 }
 
 .left-content-one {
-  margin-top: 14.7px;
+  margin-top: 29px;
 }
 
 .left-content-two {
@@ -181,6 +181,12 @@ a {
   font-weight: 600;
   line-height: 1.14;
   color: #4d515b;
+}
+
+.copy-span span {
+  font-weight: 600;
+  line-height: 1.14;
+  color: #18a0fb;
 }
 
 .footer .footer-logo {

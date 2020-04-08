@@ -22,3 +22,151 @@
   margin-top: 27px;
   margin-bottom: 2px;
 }
+
+.msa-container {
+  margin: 0 auto;
+  max-width: 70%;
+  padding-bottom: 150px;
+}
+
+.msa-header {
+  display: flow-root;
+}
+
+.msa-header .title {
+  display: flex;
+  align-items: center;
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #000000;
+  float: left;
+}
+
+.msa-icons {
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.msa-content {
+  border-radius: 10px;
+  border: dashed 2px #818389;
+  margin-top: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.file-container img {
+  width: 113px;
+  height: 138.9px;
+  margin-top: 78px;
+  margin-bottom: 24px;
+}
+
+.file-name {
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.instructions {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #4d515b;
+}
+
+.view-print-div {
+  margin-top: 32px;
+  margin-bottom: 89px;
+}
+
+.view-print-div a,
+.view-print-div a:hover {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #18a0fb;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  float: left;
+  margin-right: 31px;
+}
+
+.view-print-div a img {
+  margin-right: 8px;
+}
+
+.view-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.printer-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+}
+
+.upload-btn {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #18a0fb;
+  background-color: #ffffff;
+  border: 1px solid #18a0fb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .upload-btn-wrapper {
+    float: left;
+    margin-top: 20px;
+  }
+  .instructions {
+    max-width: 80%;
+    text-align: center;
+  }
+  .button-div {
+    max-width: 250px;
+  }
+}

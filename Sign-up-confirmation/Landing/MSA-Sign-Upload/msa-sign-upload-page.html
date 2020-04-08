@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="../../font.css" />
     <link rel="stylesheet" type="text/css" href="../landing-page-common.css" />
     <link rel="stylesheet" type="text/css" href="msa-sign-upload.css" />
-    <title>Review And Approve</title>
+    <title>MSA Sign and Upload</title>
   </head>
   <body>
     <section class="">
@@ -24,49 +24,95 @@
           />
         </div>
       </section>
-      <section>
-        <div class="max-width-container">
-          <div class="back-cta-container">
-            <a href="javascript:history.go(-1)"
-              ><img
-                src="../../images/arrow-right.png"
-                class="go-back-cta"
-                alt="go-back-img"
-              />Go back</a
-            >
-          </div>
-          <div></div>
-        </div>
-      </section>
-      <section class="fixed-footer">
-        <div class="max-width-container">
-          <div class="footer-content">
-            <div class="copy-div">
-              <p class="only-mobile first-copy">Ready to get started?</p>
-              <p class="only-dt first-copy">
-                Ready to get started with us? Great!
-              </p>
-              <p class="only-dt">
-                We are ready to get started to. It’s really easy to do!
-              </p>
-            </div>
-            <div class="button-div">
-              <form
-                action="../Choose-Date/choose-date-page.html"
-                method="get"
+      <form action="../Choose-Date/choose-date-page.html" method="get">
+        <section>
+          <div class="max-width-container">
+            <div class="back-cta-container">
+              <a href="javascript:history.go(-1)"
+                ><img
+                  src="../../images/arrow-right.png"
+                  class="go-back-cta"
+                  alt="go-back-img"
+                />Go back</a
               >
+            </div>
+            <div class="msa-container">
+              <div class="msa-header">
+                <div class="title">
+                  <img
+                    class="msa-icons"
+                    src="msa-sign-upload-images/msa-icon.png"
+                  />MSA Form Sign & Upload
+                </div>
+                <div class="upload-btn-wrapper">
+                  <button class="upload-btn">
+                    <img
+                      class="upload-icon"
+                      src="./msa-sign-upload-images/upload.png"
+                    />Upload
+                  </button>
+                  <input
+                    type="file"
+                    id="myfile"
+                    name="myfile"
+                    onchange="uploadFile()"
+                    accept=".pdf"
+                  />
+                </div>
+              </div>
+              <div class="msa-content">
+                <div class="file-container">
+                  <img src="./msa-sign-upload-images/file.png" />
+                </div>
+                <p class="file-name">Tekion GM MSA 2020.pdf</p>
+                <p class="instructions">
+                  Please download this pdf and sign it and upload back
+                </p>
+                <div class="view-print-div">
+                  <a href="#" target="_blank"
+                    ><img
+                      class="view-icon"
+                      src="./msa-sign-upload-images/view.png"
+                    />View</a
+                  >
+                  <a href="javascript:window.print()"
+                    ><img
+                      class="printer-icon"
+                      src="./msa-sign-upload-images/printer.png"
+                    />Print</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="fixed-footer">
+          <div class="max-width-container">
+            <div class="footer-content">
+              <div class="copy-div">
+                <p class="only-mobile first-copy">Ready to get started?</p>
+                <p class="only-dt first-copy">
+                  Ready to get started with us? Great!
+                </p>
+                <p class="only-dt">
+                  We are ready to get started to. It’s really easy to do!
+                </p>
+              </div>
+              <div class="button-div">
                 <button
+                  id="msa-submit"
                   class="submit-btn"
                   type="submit"
                   onclick="setMSAKey()"
-                >Accept & Continue
+                >
+                  Next/ Implementation
                   <img src="../../images/arrow-right.png" />
                 </button>
-              </form>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </form>
     </section>
     <script type="text/javascript" src="../../jquery.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
