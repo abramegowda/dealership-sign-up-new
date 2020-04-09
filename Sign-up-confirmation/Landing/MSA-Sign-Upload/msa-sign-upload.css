@@ -107,7 +107,25 @@
   margin-right: 31px;
 }
 
-.view-print-div a img {
+.view-print-div button {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #18a0fb;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  float: left;
+  margin-right: 31px;
+  cursor: pointer;
+}
+
+.view-print-div a img,
+.view-print-div button img {
   margin-right: 8px;
 }
 

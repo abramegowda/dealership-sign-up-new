@@ -79,11 +79,11 @@
                       src="./msa-sign-upload-images/view.png"
                     />View</a
                   >
-                  <a href="javascript:window.print()"
+                  <button type="button" onclick="printJS('./Tekion GM MSA 2020.pdf')"
                     ><img
                       class="printer-icon"
                       src="./msa-sign-upload-images/printer.png"
-                    />Print</a
+                    />Print</button
                   >
                 </div>
               </div>
@@ -119,6 +119,7 @@
       </form>
     </section>
     <script type="text/javascript" src="../../jquery.min.js"></script>
+    <script type="text/javascript" src="./print.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
     <script type="text/javascript" src="./msaSignUpload.js"></script>
   </body>
