@@ -44,3 +44,11 @@ function enableSubmitButton() {
     .childNodes[1].setAttribute("src", "../../images/arrow-right.png");
   document.getElementById("msa-submit").removeAttribute("disabled");
 }
+
+function print() {
+  // var iframe = document.getElementById("myFrame");
+  // iframe.contentWindow.print();
+
+  window.frames["myFrame"].focus();
+  window.frames["myFrame"].print();
+}

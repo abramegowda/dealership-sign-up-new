@@ -160,6 +160,10 @@ a {
     max-width: 90%;
   }
 
+  .header {
+    height: 95px;
+  }
+
   .logo-green {
     width: 100%;
     max-width: 120px;

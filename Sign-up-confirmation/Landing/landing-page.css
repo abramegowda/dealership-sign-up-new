@@ -1,5 +1,5 @@
 .section-left {
-  width: 33%;
+  width: 40%;
   float: left;
   padding-right: 71px;
   border-right: 1px solid #ededed;
@@ -10,14 +10,14 @@
 }
 
 .section-right {
-  width: 56%;
+  width: 45%;
   float: left;
   padding-left: 45.5px;
   margin-top: 71px;
 }
 
 .group-img {
-  max-width: 100%;
+  max-width: 92%;
   width: 100%;
   margin-top: 41px;
 }
@@ -124,7 +124,8 @@ li:last-child span::after {
   }
 
   .arc-logo {
-    margin-bottom: 35px;
+    margin-bottom: 0;
+    padding-bottom: 0;
     max-width: 45%;
   }
   .section-left {
