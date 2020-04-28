@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="../../font.css" />
     <link rel="stylesheet" type="text/css" href="../landing-page-common.css" />
-    <link rel="stylesheet" type="text/css" href="msa-sign-upload.css" />
+    <link rel="stylesheet" type="text/css" href="msa-form.css" />
     <title>MSA Sign and Upload</title>
   </head>
 
@@ -18,7 +18,7 @@
           <img class="dealership-logo" src="../landing-page-images/dealer-img.png" alt="dealership-logo" />
         </div>
       </section>
-      <form action="../Choose-Date/choose-date-page.html" method="get">
+      <form action="../MSA-Sign-Upload/msa-sign-upload-page.html" method="get">
         <section>
           <div class="max-width-container">
             <div class="back-cta-container">
@@ -27,24 +27,22 @@
             <div class="msa-container">
               <div class="msa-header">
                 <div class="title">
-                  <img class="msa-icons" src="msa-sign-upload-images/msa-icon.png" />MSA Form Sign & Upload
-                </div>
-                <div class="upload-btn-wrapper">
-                  <button class="upload-btn">
-                    <img class="upload-icon" src="./msa-sign-upload-images/upload.png" />Upload
-                  </button>
-                  <input type="file" id="myfile" name="myfile" onchange="uploadFile(this.files[0])" accept=".pdf" />
-                </div>
-              </div>
-              <div id="drop-area">
-                <div class="file-upload-title">Upload signed Tekion GM MSA 2020 form</div>
-                <div class="file-container">
-                  <img title="click to download pdf" src="./msa-sign-upload-images/drop_folder.png" />
-                </div>
-                <p>Drag and drop your document(s)</p>
-                <input type="file" id="fileElem" accept=".pdf" onchange="previewFile(this.files[0])">
-                <label class="browse" for="fileElem">or <span>browse</span> to choose a file</label>
-                <div id="gallery" />
+                  <img class="msa-icons" src="msa-form-images/msa-icon.png" />MSA Form
+								</div>
+								<ul class="radio-container">
+									<li class="radio-items">
+										<input type="radio" id="item1" name="signature" value="digital">
+										<label for="item1"><span class="check"></span>Proceed with digital acceptance</label>
+									</li>
+									<li class="radio-items">
+										<input type="radio" id="item2" name="signature" checked value="wet">
+										<label for="item2"><span class="check"></span>Proceed with wet signature</label>
+									</li>
+								</ul>
+							</div>
+							<iframe width="100%" height="1128" src="Tekion GM MSA 2020.pdf"></iframe>
+              <div class="cta-container">
+								<a class="download-cta" href="Tekion GM MSA 2020.pdf" download><img src="./msa-form-images/download-icon.svg" /> Download</a>
               </div>
             </div>
           </div>
@@ -63,8 +61,8 @@
                 </p>
               </div>
               <div class="button-div">
-                <button id="msa-submit" class="submit-btn" type="submit" onclick="setMSAKey()">
-                  Next/ Implementation
+                <button id="msa-submit" class="submit-btn" type="submit">
+                  Accept
                   <img src="../../images/arrow-right.png" />
                 </button>
               </div>
@@ -75,7 +73,7 @@
     </section>
     <script type="text/javascript" src="../../jquery.min.js"></script>
     <script type="text/javascript" src="../../script.js"></script>
-    <script type="text/javascript" src="./msaSignUpload.js"></script>
+    <script type="text/javascript" src="./msa-form.js"></script>
   </body>
 
 </html>

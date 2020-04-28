@@ -30,6 +30,10 @@
 }
 
 .pricing-header {
+  display: flow-root;
+}
+
+.pricing-header .title {
   display: flex;
   align-items: center;
   font-family: InterRegular;
@@ -38,6 +42,36 @@
   line-height: 1.25;
   letter-spacing: -0.6px;
   color: #000000;
+  float: left;
+}
+
+
+.download-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  float: right;
+}
+
+.download-btn {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #18a0fb;
+  background-color: #ffffff;
+  border: 1px solid #18a0fb;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+}
+
+.download-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
 }
 
 .pricing-icons {

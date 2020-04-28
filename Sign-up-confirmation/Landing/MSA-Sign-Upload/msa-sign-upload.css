@@ -51,21 +51,21 @@
   height: 40px;
 }
 
-.msa-content {
-  border-radius: 10px;
-  border: dashed 2px #818389;
-  margin-top: 43px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.file-upload-title {
+  font-family: InterRegular;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.25;
+  letter-spacing: -0.6px;
+  color: #000000;
+  margin-top: 40px;
 }
 
 .file-container img {
-  width: 113px;
-  height: 138.9px;
-  margin-top: 78px;
-  margin-bottom: 24px;
+  width: 120px;
+  height: 104px;
+  margin-top: 81px;
+  margin-bottom: 24.2px;
 }
 
 .file-name {
@@ -76,15 +76,6 @@
   letter-spacing: -0.6px;
   color: #000000;
   margin-bottom: 8px;
-}
-
-.instructions {
-  font-family: InterRegular;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 1.33;
-  letter-spacing: normal;
-  color: #4d515b;
 }
 
 .view-print-div {
@@ -176,15 +167,56 @@
   margin-right: 8px;
 }
 
+#drop-area {
+  border-radius: 10px;
+  border: dashed 2px #818389;
+  margin-top: 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 117px;
+}
+#drop-area.highlight {
+  border-color: #05deba;
+}
+#gallery {
+  margin-top: 10px;
+}
+#gallery img {
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.browse {
+  font-family: InterRegular;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #2f313c;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.browse span {
+  color: #18a0fb;
+}
+#fileElem {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .upload-btn-wrapper {
     float: left;
     margin-top: 20px;
   }
-  .instructions {
-    max-width: 80%;
-    text-align: center;
-  }
+  
   .button-div {
     max-width: 250px;
   }
