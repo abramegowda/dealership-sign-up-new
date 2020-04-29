@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="email.css" />
+    <title>Thank you for Signing Up</title>
+  </head>
+  <body>
+    <div class="max-width-outer">
+      <section class="logo">
+        <a href="https://www.tekion.com/"><img src="email-images/logo-green.png" alt="Tekion Logo" /></a>
+      </section>
+      <section class="boby-content">
+        <div class="center-align-content">
+          <p class="address-to">Dear {{.dealerName}},</p>
+          <p class="gesture-message">You have chosen wisely, we’re thrilled</br> to partner with you!</p>
+          <img class="shakehand-img" src="email-images/shakehand.png" alt="thumbs-up-img" />
+        </div>
+        <div class="left-content-one">
+          <p class="copy copy-span">
+            We will be contacting your shortly to discuss the implementation process If you have any questions in the meantime, please contact your <span>Solutions Manager</span> at <span>Solutions Manager phone</span> or <span>Solutions Manager email</span>. 
+          </p>
+          <div class="downloadable-content">
+            <p class="title">Here are some handy documents for your records. </p>
+            <p class="text">Download:</p>
+            <div class="links">
+                <a href=""><img src="email-images/Upload.png" />Order form</a>
+                <a href=""><img src="email-images/Upload.png" />MSA</a>
+            </div>
+          </div>
+        </div>
+        <div class="left-content-two">
+            <p>Sincerely</p>
+            <span>Tekion Team</span>
+        </div>
+      </section>
+      <section class="footer">
+        <div class="social-icons">
+            <a href="https://www.facebook.com/TekionCorp" target="_blank"><div class="flip"><img alt="facebook" src="email-images/Facebook_inactive.png"><img alt="facebook" class="img-top" src="email-images/Facebook.png"></div></a>
+            <a href="https://twitter.com/tekioncorp" target="_blank"><div class="flip"><img alt="twitter" src="email-images/twitter_inactive.png"><img alt="twitter" class="img-top" src="email-images/twitter.png"></div></a>
+            <a href="https://www.linkedin.com" target="_blank"><div class="flip"><img alt="linkedIn" src="email-images/linkedin_inactive.png"><img alt="linkedIn" class="img-top" src="email-images/linkedin.png"></div></a>
+            <a href="https://www.instagram.com/tekioncorp/" target="_blank"><div class="flip"><img alt="instagram" src="email-images/Instagram_inactive.png"><img alt="instagram" class="img-top" src="email-images/Instagram.png"></div></a>
+        </div>
+        <p class="copy-rights">Tekion Corp. &#169; 2020. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Help & Support</a>
+            <a href="#">Terms of Service</a>
+            <a href="https://www.tekion.com/privacy-policy/">Privacy Policy</a>
+        </div>
+        <a href="https://www.tekion.com/"><img class="footer-logo" alt="Tekion Logo" src="email-images/logo-footer.png" /></a>
+    </section>
+    </div>
+    <script type="text/javascript" src="jquery.min.js"></script>
+  </body>
+</html>
