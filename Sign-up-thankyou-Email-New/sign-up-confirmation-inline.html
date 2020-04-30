@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="email.css" />
+    <title>Thank you for Signing Up</title>
+    <style>
+      body,
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      a {
+        margin: 0;
+        padding: 0;
+        font-weight: normal;
+        letter-spacing: normal;
+      }
+
+      * {
+        outline: none;
+      }
+
+      @font-face {
+        font-family: InterSemiBold;
+        src: url(fonts-Inter/Inter-SemiBold.ttf);
+      }
+
+      @font-face {
+        font-family: InterBold;
+        src: url(fonts-Inter/Inter-Bold.ttf);
+      }
+
+      @font-face {
+        font-family: InterRegular;
+        src: url(fonts-Inter/Inter-Regular.ttf);
+			}
+
+    </style>
+  </head>
+
+  <body>
+    <div style="max-width: 590px; padding: 58px 61px; margin: 0 auto; background-color: #f7f7f7;">
+      <section style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <a href="https://www.tekion.com/">
+          <img src="email-images/logo-green.png" alt="Tekion Logo" style="width: 100%; max-width: 152px; min-width: 152px;" />
+        </a>
+      </section>
+      <section style="display: flex; flex-direction: column; justify-content: center; margin: 37.2px 0 40px; padding: 40px 40px 53px; background-color: #fff;">
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+          <p style="font-family: InterBold; font-size: 16px; font-weight: bold; line-height: 1.25; letter-spacing: -0.6px; color: #2f313c; margin-bottom: 8px;">Dear {{.dealerName}},</p>
+          <p style="font-family: InterRegular; font-size: 20px; line-height: 1.3; letter-spacing: -0.75px; color: #000000; text-align: center; margin-bottom: 24px;">You have chosen wisely, we’re thrilled</br> to partner with you!</p>
+          <img src="email-images/shakehand.png" alt="thumbs-up-img" style="max-width: 300px; width: 100%;" />
+        </div>
+        <div style="margin-top: 29px;">
+          <p class="copy-span" style="font-family: InterRegular; font-size: 14px; line-height: 1.43; letter-spacing: normal; color: #4d515b; margin-bottom: 20px;">
+            We will be contacting your shortly to discuss the implementation process If you have any questions in the meantime, please contact your <span style="font-weight: 600; line-height: 1.14; color: #18a0fb;">Solutions Manager</span> at <span style="font-weight: 600; line-height: 1.14; color: #18a0fb;">Solutions Manager phone</span> or <span style="font-weight: 600; line-height: 1.14; color: #18a0fb;">Solutions Manager email</span>.
+          </p>
+          <div class="downloadable-content">
+            <p style="font-family: InterRegular; font-size: 16px; font-weight: bold; line-height: 1.25; letter-spacing: -0.6px; color: #2f313c; margin-top: 20px;">Here are some handy documents for your records. </p>
+            <p class="text" style="font-family: InterRegular; font-size: 14px; line-height: 1.43; letter-spacing: normal; color: #4d515b; margin-bottom: 18px;">Download:</p>
+            <div style="display: flex;">
+              <a style="font-family: InterRegular; font-size: 12px; font-weight: bold; line-height: 1.33; letter-spacing: normal; color: #15161f; text-decoration: none; padding: 7px 15px; border: 1px solid #818389; border-radius: 18px; display: flex; margin-right: 15px;" href=""><img style="width: 14px; height: 16px; margin-right: 9px;" src="email-images/Upload.png" />Order form</a>
+              <a style="font-family: InterRegular; font-size: 12px; font-weight: bold; line-height: 1.33; letter-spacing: normal; color: #15161f; text-decoration: none; padding: 7px 15px; border: 1px solid #818389; border-radius: 18px; display: flex; margin-right: 15px;" href=""><img style="width: 14px; height: 16px; margin-right: 9px;" src="email-images/Upload.png" />MSA</a>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top: 35px;">
+          <p style="width: 353px; height: 20px; font-family: InterRegular; font-size: 14px; line-height: 1.43; letter-spacing: normal; color: #4d515b;">Sincerely</p>
+          <span style="font-family: InterRegular; font-size: 14px; font-weight: 600; line-height: 1.14; color: #4d515b;">Tekion Team</span>
+        </div>
+      </section>
+      <section style="display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;">
+        <div style="margin-bottom: 24.3px;">
+          <a style="display: inline-block;" href="https://www.facebook.com/TekionCorp" target="_blank">
+            <div style="margin: 0 6.2px; min-width: 20.7px; max-width: 20.7px; position: relative;"><img style="width: 20.7px; height: 20.7px;" alt="facebook" src="email-images/Facebook_inactive.png"></div>
+          </a>
+          <a style="display: inline-block;" href="https://twitter.com/tekioncorp" target="_blank">
+            <div style="margin: 0 6.2px; min-width: 20.7px; max-width: 20.7px; position: relative;"><img style="width: 20.7px; height: 20.7px;" alt="twitter" src="email-images/twitter_inactive.png"></div>
+          </a>
+          <a style="display: inline-block;" href="https://www.linkedin.com" target="_blank">
+            <div style="margin: 0 6.2px; min-width: 20.7px; max-width: 20.7px; position: relative;"><img style="width: 20.7px; height: 20.7px;" alt="linkedIn" src="email-images/linkedin_inactive.png"></div>
+          </a>
+          <a style="display: inline-block;" href="https://www.instagram.com/tekioncorp/" target="_blank">
+            <div style="margin: 0 6.2px; min-width: 20.7px; max-width: 20.7px; position: relative;"><img style="width: 20.7px; height: 20.7px;" alt="instagram" src="email-images/Instagram_inactive.png"></div>
+          </a>
+        </div>
+        <p style="font-family: InterRegular; font-size: 10px; font-weight: normal; line-height: 1; letter-spacing: normal; color: #4d515b; margin-bottom: 4px;">Tekion Corp. &#169; 2020. All rights reserved.</p>
+        <div style="margin-bottom: 22px;">
+          <a style="font-family: InterRegular; font-size: 10px; font-weight: normal; line-height: 1; letter-spacing: normal; color: #4d515b; border-right: 1px solid #999; padding: 0 7px; text-decoration: none;" href="#">Help & Support</a>
+          <a style="font-family: InterRegular; font-size: 10px; font-weight: normal; line-height: 1; letter-spacing: normal; color: #4d515b; border-right: 1px solid #999; padding: 0 7px; text-decoration: none;" href="#">Terms of Service</a>
+          <a style="font-family: InterRegular; font-size: 10px; font-weight: normal; line-height: 1; letter-spacing: normal; color: #4d515b; padding: 0 7px; text-decoration: none; border: none;" href="https://www.tekion.com/privacy-policy/">Privacy Policy</a>
+        </div>
+        <a href="https://www.tekion.com/"><img style="width: 100%; min-width: 80px; max-width: 80px;" alt="Tekion Logo" src="email-images/logo-footer.png" /></a>
+      </section>
+    </div>
+    <script type="text/javascript" src="jquery.min.js"></script>
+  </body>
+
+</html>
